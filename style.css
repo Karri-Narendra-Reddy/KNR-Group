@@ -182,6 +182,28 @@ h4{
 small{
 	color: #555;
 }
+.col-7{
+	flex-basis: 50%;
+	min-width: 300px;
+	padding-left: 85px;
+}
+.col-7 img{
+	max-width: 100%;
+	padding: 50px 0px;
+	
+}
+.col-7 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+	color: white;
+
+}
+.col-7 p{
+	
+	color: lightgrey;
+
+}
 
 /*------------testimonial--------------------*/
 .testimonial{
@@ -392,7 +414,7 @@ input:focus{
 
 	nav ul{
 		position: absolute;
-		top: 70px;
+		top: 110px;
 		left: 0;
 		background: #333;
 		width: 100%;
@@ -420,7 +442,35 @@ input:focus{
 	.row{
 		text-align: center;
 	}
-	.col-2, .col-3, .col-4, .col-6{
+	.col-3, .col-4, .col-6{
+		text-align: center;
 		flex-basis: 100%;
 	}
+	.col-2 {
+		text-align: left;
+		flex-basis: 100%;
+
+	}
+	.col-7 {
+	flex-basis: 100%;
+	padding: 20px;
+	}
+	.col-7 img{
+		max-width: 100%;
+		
+		
+	}
+	.col-7 h1{
+		font-size: 50px;
+		line-height: 60px;
+		margin: 25px 0;
+		color: white;
+
+	}
+	.col-7 p{
+		
+		color: lightgrey;
+
+	}
+
 }
